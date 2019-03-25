@@ -123,3 +123,85 @@ print("Hello My Love,Your age is " + str(age))
 >
 > ​	我觉得相较于java，c来说，Python的入门显然是更加容易的，但我相信简单有简单的好处，但必然也有很大的缺点存在，只是入门的我还无法体会，我坚信Python的理念好的是远远大于不好的，但是错误的终将主导Python的未来，希望路上有大佬不断的改进，延长Python的青年期。希望自己能坚持学完Python基础，加油，最后感谢自己的女朋友对自己心理上的指导！(*^__^*) 嘻嘻……
 
+## 列表简介
+
+#### 3.1列表是什么
+
++ 列表是一系列按照特定元素组成
++ 可以将任何东西加入列表中，他们之间可以没有任何关系
++ Python使用[ ]表示列表，使用逗号分隔元素
+
+```python
+bicycles = ['trek', 'redline', 'specialized']
+print(bicycles)
+```
+
+```python
+# 通过索引访问元素
+print(bicycles[0])
+
+# 取出列表第一个元素并且首字母大写
+print(bicycles[0].title())
+
+# 通过-号访问倒数的元素
+print(bicycles[-1])
+```
+
+#### 3.2修改，添加，删除元素
+
++ 你所创建的列表通常是动态的，将随着程序的运行而变化
+
+#### 3.2.1修改列表元素
+
+```python
+# 通过索引直接修改
+bicycles = ['trek', 'redline', 'specialized']
+bicycles[0] = "test"
+print(bicycles)
+```
+
+#### 3.2.2在列表中添加元素
+
+```python
+# 在列表末尾添加元素
+bicycles = ['trek', 'redline', 'specialized']
+bicycles.append("test1")
+print(bicycles)
+```
+
+```python
+# 通过insert()将元素插入指定位置
+bicycles = ['trek', 'redline', 'specialized']
+bicycles.insert(1, "test")
+print(bicycles)
+```
+
+#### 3.2.3从列表中删除元素
+
+``` python
+# 通过del删除指定位置的元素
+bicycles = ['trek', 'redline', 'specialized']
+del bicycles[1]
+print(bicycles)
+```
+
++ 使用pop()可以删除列表末尾的元素，并且能够让你继续使用它
+
+```python
+bicycles = ['trek', 'redline', 'specialized']
+test = bicycles.pop()
+print(test)
+print(bicycles)
+```
+
++ 使用pop()弹除列表中指定位置的元素，在括号中指定索引即可
+
+```python
+bicycles = ['trek', 'redline', 'specialized']
+test = bicycles.pop(1)
+print(test)
+print(bicycles)
+```
+
++ 通过remove()删除指定值的元素，但是只会删除第一个
+
