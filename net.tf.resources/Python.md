@@ -205,3 +205,20 @@ print(bicycles)
 
 + 通过remove()删除指定值的元素，但是只会删除第一个
 
+#### 3.3组织列表
+
++ 你所创建的列表中，排序常常是无法预测的
++ 有时候你想保留列表元素最初的元素顺序，有时候有需要重新排序，Python都对其增加了支持
+
+#### 3.3.1使用sort()对列表进行永久性排序
+
+```python
+# 使用sort()方法按照首字母大小写进行反向排序
+# 需要注意的是在Python中，True And False 是首字母大写
+cars = ["bmw", "audi", "subaru"]
+cars.sort(reverse=True)
+print(cars)
+```
+
+
+
