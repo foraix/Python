@@ -2,9 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c7a573ca-eab4-4a1a-a165-8206b4b9bb7e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/chapter04/chapter04.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/start.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/start.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/webResources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/webResources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/net.tf.chapter2/lsit.py" beforeDir="false" afterPath="$PROJECT_DIR$/net.tf.chapter2/lsit.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/net.tf.resources/Python.md" beforeDir="false" afterPath="$PROJECT_DIR$/net.tf.resources/Python.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/net.tf.chapter2/Hello_world.py" beforeDir="false" afterPath="$PROJECT_DIR$/chapter2/Hello_world.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/net.tf.chapter2/lsit.py" beforeDir="false" afterPath="$PROJECT_DIR$/chapter2/lsit.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/net.tf.chapter2/number.py" beforeDir="false" afterPath="$PROJECT_DIR$/chapter2/number.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/net.tf.resources/Python.md" beforeDir="false" afterPath="$PROJECT_DIR$/resources/Python.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,6 +18,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/start$chapter04.coverage" NAME="chapter04 Coverage Results" MODIFIED="1553700432474" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter04" />
     <SUITE FILE_PATH="coverage/start$Test__1_.coverage" NAME="Test (1) Coverage Results" MODIFIED="1553331933757" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/net.tf.test" />
     <SUITE FILE_PATH="coverage/start$number.coverage" NAME="number Coverage Results" MODIFIED="1553441172267" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/net.tf.chapter2" />
     <SUITE FILE_PATH="coverage/start$lsit.coverage" NAME="lsit Coverage Results" MODIFIED="1553609184988" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/net.tf.chapter2" />
@@ -21,34 +27,43 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/net.tf.chapter2/Hello_world.py">
+        <entry file="file://$PROJECT_DIR$/chapter2/Hello_world.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="590">
-              <caret line="30" column="18" lean-forward="true" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
+            <state relative-caret-position="840">
+              <caret line="30" column="18" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/net.tf.chapter2/number.py">
+        <entry file="file://$PROJECT_DIR$/chapter2/number.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="308">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/net.tf.chapter2/lsit.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/chapter2/lsit.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="229">
+            <state relative-caret-position="471">
               <caret line="99" lean-forward="true" selection-start-line="99" selection-end-line="99" />
             </state>
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/chapter04/chapter04.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="318">
+              <caret line="35" column="58" lean-forward="true" selection-start-line="35" selection-start-column="58" selection-end-line="35" selection-end-column="58" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/net.tf.resources/Python.md">
+        <entry file="file://$PROJECT_DIR$/resources/Python.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor />
@@ -79,14 +94,14 @@
         <option value="$PROJECT_DIR$/net.tf.chapter2/Hello_world.py" />
         <option value="$PROJECT_DIR$/net.tf.chapter2/number.py" />
         <option value="$PROJECT_DIR$/net.tf.chapter2/lsit.py" />
+        <option value="$PROJECT_DIR$/chapter04/chapter04.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="260" />
-    <option name="y" value="24" />
-    <option name="width" value="1400" />
-    <option name="height" value="1000" />
+    <option name="x" value="-7" />
+    <option name="width" value="974" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -112,12 +127,12 @@
             <path>
               <item name="start" type="b2602c69:ProjectViewProjectNode" />
               <item name="start" type="462c0819:PsiDirectoryNode" />
-              <item name="net.tf.chapter2" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter04" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="start" type="b2602c69:ProjectViewProjectNode" />
               <item name="start" type="462c0819:PsiDirectoryNode" />
-              <item name="net.tf.resources" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -146,7 +161,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.lsit">
+  <component name="RunManager" selected="Python.chapter04">
     <configuration name="Hello_world" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="start" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -191,7 +206,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="chapter04" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="start" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -199,14 +214,14 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chapter04" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="H:\python\start\net.tf.test\Test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter04/chapter04.py" />
       <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
@@ -259,11 +274,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.chapter04" />
         <item itemvalue="Python.lsit" />
         <item itemvalue="Python.number" />
         <item itemvalue="Python.Hello_world" />
         <item itemvalue="Python.Test (1)" />
-        <item itemvalue="Python.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -288,23 +303,24 @@
       <workItem from="1553440154760" duration="1372000" />
       <workItem from="1553442171176" duration="779000" />
       <workItem from="1553524514109" duration="3799000" />
-      <workItem from="1553608499929" duration="848000" />
+      <workItem from="1553608499929" duration="1200000" />
+      <workItem from="1553698265244" duration="2187000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10697000" />
+    <option name="totallyTimeSpent" value="13236000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1065" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" x="782" y="87" width="356" height="875" id="Project" order="0" visible="true" weight="0.20042644" />
+      <window_info content_ui="combo" x="782" y="87" width="356" height="875" id="Project" order="0" visible="true" weight="0.20255864" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.49171272" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.26961327" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -313,7 +329,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32928178" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.055248618" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.22430938" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32928178" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -328,7 +344,22 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/net.tf.test/Test.py" />
     <entry file="file://$PROJECT_DIR$/net.tf.chapter2/xx.py" />
-    <entry file="file://$PROJECT_DIR$/net.tf.resources/Python.md">
+    <entry file="file://$PROJECT_DIR$/net.tf.chapter2/lsit.py___jb_tmp___" />
+    <entry file="file://$PROJECT_DIR$/chapter2/Hello_world.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="30" column="18" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter2/number.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/Python.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor />
@@ -336,31 +367,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/net.tf.chapter2/number.py">
+    <entry file="file://$PROJECT_DIR$/chapter2/lsit.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/net.tf.chapter2/Hello_world.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="590">
-          <caret line="30" column="18" lean-forward="true" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/net.tf.chapter2/lsit.py___jb_tmp___">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/net.tf.chapter2/lsit.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
+        <state relative-caret-position="471">
           <caret line="99" lean-forward="true" selection-start-line="99" selection-end-line="99" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter04/chapter04.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="35" column="58" lean-forward="true" selection-start-line="35" selection-start-column="58" selection-end-line="35" selection-end-column="58" />
         </state>
       </provider>
     </entry>

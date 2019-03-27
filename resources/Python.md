@@ -220,5 +220,92 @@ cars.sort(reverse=True)
 print(cars)
 ```
 
+#### 3.3.2使用sorted对列表进行临时性排序
 
+```java
+cars = ["bmw", "audi", "subaru"]
+print(sorted(car s))
+print(cars)
+```
+
+#### 3.3.3倒着打印列表
+
+```python
+# 使用reverse()方法对列表进行永久排序，但是并非是按照字母顺序进行排序，而是按照先后顺序进行倒着排序
+cars = ["bmw", "audi", "subaru"]
+cars.reverse()
+print(cars)
+```
+
+## 操作列表
+
+#### 4.1遍历整个列表
+
+``` python
+cars = ["audi", "bmw", "benz"]
+for car in cars:
+    print(car)
+```
+
++ 上段代码分析：Python首先会获取到cars里的第一个值auid，然后存进变量car中，将其打印，然后获取到bmw，依次循环
++ 对于列表中的元素，都将执行循环特定的步骤，如果包含一百万个元素，Python执行的速度也是很快的
+
+```python
+cars = ["audi", "bmw", "benz"]
+for car in cars:
+    print(car)
+    print(car.title()+" is very good")
+print("test")    
+```
+
++ 注意上面代码的缩进，缩进是控制该方法是否循环体执行的原因，因为Python是根据代码与前一行的缩进来判断关系
+
+#### 4.3创建数值列表
+
+#### 4.3.1使用函数range()
+
+```python
+# 这个语句看似会打印1到5,但实际上只会打印1到4
+for val in range(1, 5):
+    print(val)
+```
+
+#### 4.3.2使用range()创建数字列表
+
+``` python
+# 使用list()将数字转化为列表
+list = list(range(1, 5))
+print(list.insert(0, 2))
+print(list)
+```
+
+```python
+# 2到15之间的偶数
+evenNumbers = list(range(2, 15, 2))
+print(evenNumbers)
+```
+
+```python
+# 创建1到10的数平方的列表
+squares = []
+for val in range(1, 11):
+    squares.append(val**2)
+print(squares)
+```
+
+#### 4.3.3对数字列表进行简单的统计运算
+
+```python
+print(max(squares))
+print(min(squares))
+print(sum(squares))
+```
+
+#### 4.3.4列表解析
+
+```python
+# 使用列表解析
+squares = [val**2 for val in range(1, 15)]
+print(squares)
+```
 
