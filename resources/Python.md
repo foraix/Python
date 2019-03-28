@@ -309,3 +309,49 @@ squares = [val**2 for val in range(1, 15)]
 print(squares)
 ```
 
+#### 4.4.1切片
+
++ 要创建切片，可以指定要使用的第一个元素和最后一个元素的所以，可以使用负号(-)表示倒数
+
+```python
+players = ["yuan", "han", "su", "wang"]
+print(players[0:2])
+# 全部打印
+print(players[:])
+# 打印倒数三个
+print(players[-3:])
+```
+
+```python
+# 遍历切片
+for val in players[-2:]:
+    print(val.title())
+```
+
+#### 4.4.3复制列表
+
+```python
+# 复制列表 可以发现使用切片复制是两个不相干的实体，是一种完全复制
+newPlayers = players[:]
+print(newPlayers)
+newPlayers.append("xxx")
+print(players)
+print(newPlayers)
+
+# 可以发现通过变量名赋值，并非完全复制，两个变量名字指向的是同一个对象
+print("-----")
+newPlayers = players
+newPlayers.append("xxx")
+print(players)
+print(newPlayers)
+```
+
+#### 4.5元组
+
++ 列表非常适合于存储程序运行期间可能变化的数据集，列表是可以修改的
++ 有时候，如果你想创建一组数据不可以被修改可以使用元组
+
+#### 4.5.1定义元组
+
++ 元组看起来像列表，但是是使用圆括号而不是方括号
+
